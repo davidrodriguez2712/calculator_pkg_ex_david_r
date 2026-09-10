@@ -4,5 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "calculator_pkg_ex_david_r"
-version = "0.1.0"
+version = "0.2.0"
 
+[project.scripts]
+calculator_pkg_ex = "calculator_pkg_ex_david_r.__main__:main"
