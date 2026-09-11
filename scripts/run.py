@@ -1,3 +1,4 @@
 from calculator_pkg_ex_david_r import Calculator
+from calculator_pkg_ex_david_r import FileCalculator
 
-print(Calculator().add(1, 2))
+print(FileCalculator().add_file())

@@ -1,6 +1,8 @@
-from ..calculator import Calculator
 # from calculator_pkg_ex_david_r import Calculator
 import pytest
+
+from ..calculator import Calculator
+
 
 class TestCalculator:
     def test_add(self) -> None:
@@ -13,7 +15,7 @@ class TestCalculator:
         assert Calculator().multiply(3, 2) == 6, "Multiply failed"
 
     def test_divide(self) -> None:
-        assert Calculator().divide(8, 2)== 4, "Divide failed"
+        assert Calculator().divide(8, 2) == 4, "Divide failed"
 
     def test_divide_zero(self) -> None:
         with pytest.raises(ZeroDivisionError):
