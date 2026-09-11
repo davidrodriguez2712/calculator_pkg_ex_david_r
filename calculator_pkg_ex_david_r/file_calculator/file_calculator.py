@@ -1,6 +1,6 @@
 # from calculator_pkg_ex_david_r.calculator import Calculator # abolute import
-from pathlib import Path
 import time
+from pathlib import Path
 
 from tqdm import tqdm
 
