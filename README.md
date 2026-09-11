@@ -31,6 +31,7 @@ Some Linting Badges (Where I could find them):
 ## Package Description
 
 Calculator Python Package Example/Template
+-
 
 ## Usage
 * [calculator\_pkg\_ex](#calculator\_pkg\_ex)
